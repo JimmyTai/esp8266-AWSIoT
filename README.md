@@ -9,7 +9,8 @@ This repo includes the improved esp8266 arduino firmware which checkout from v2.
 ## Installation
 1. please replace whole esp8266 arduino core with my version in this repo. (Actually, I only change the WiFiClientSecure.h, WiFiClientSecure.cpp and libaxtls.a)
 2. copy and paste the AWSMQTT library to your libraries folder.
-3. you can connect to your AWS IoT by the example code.
+3. use arduino-esp8266fs-plugin (https://github.com/esp8266/arduino-esp8266fs-plugin) to upload certification and private key. (Please notice the certification and private key is .der file)
+4. you can connect to your AWS IoT by the example code.
 
 ## Usage
 It is almost the same as the usage of pubsubclient. There is just some changes in the connection step. See the example for details. Things you should edit in the example:
