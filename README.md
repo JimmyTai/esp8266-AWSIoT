@@ -1,3 +1,6 @@
+# Suggest using ESP32 instead of ESP8266
+**This repo is deprecated**, please using the new MCU ESP32. ESP32 have WI-FI and BLE dual wireless function. It also brings more heap memory and better performance. 
+
 # esp8266-AWSIoT
 This repo includes the improved esp8266 arduino firmware which checkout from v2.3.0 official repo and the library which helps you loading certification and private key.
 
